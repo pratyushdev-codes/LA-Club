@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* App.css */
+
+/* ... your existing styles ... */
+
+.logoimage img {
+  width: 100px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio, adjust height accordingly */
+}
+
+/* ... your existing styles ... */
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.logoimage {
+  height: "20px";
+  width: "20px";
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+  padding: 2rem 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f0f0f0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
+}
